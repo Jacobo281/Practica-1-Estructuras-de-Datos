@@ -3,9 +3,9 @@
 ## Compilación
 
 ```bash
-g++ -O2 -std=c++17 -o avl avl.cpp
-g++ -O2 -std=c++17 -o heapsort heapsort.cpp
-g++ -O2 -std=c++17 -o quicksort quicksort.cpp
+clang++ -std=c++17 avl.cpp -o Avl 
+clang++ -std=c++17 heapsort.cpp -o Heapsort 
+clang++ -std=c++17 quicksort.cpp -o Quicksort 
 ```
 
 ## Ejecución y Salida
@@ -13,7 +13,7 @@ g++ -O2 -std=c++17 -o quicksort quicksort.cpp
 ### 1. AVL Tree
 
 ```bash
-$ ./avl.exe
+$ ./Avl.exe
 Se cargaron 100000 palabras limpias.
 Iniciando Arbol AVL...
 
@@ -32,7 +32,7 @@ AVL Tree    O(n log n)      O(n log n)      O(n log n)      O(n)
 ### 2. HeapSort
 
 ```bash
-$ ./heapsort.exe
+$ ./Heapsort.exe
 Se cargaron 100000 palabras limpias.
 Iniciando HeapSort...
 
@@ -51,7 +51,7 @@ HeapSort    O(n log n)      O(n log n)      O(n log n)      O(1)
 ### 3. QuickSort
 
 ```bash
-$ ./quicksort.exe
+$ ./Quicksort.exe
 Se cargaron 100000 palabras limpias.
 Iniciando QuickSort...
 
